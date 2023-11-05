@@ -1,0 +1,94 @@
+a, u {
+    text-decoration: none;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.but1{
+    width: 300px;
+    height: 100px;
+    background-color: blueviolet;
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 1s ease;
+    border-radius: 10px;
+    color: yellow;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 16pt;
+    font-family: 'Rubik', sans-serif;
+}
+.but1:hover{
+    width: 400px;
+    height: 200px;
+    transition: all 1s ease;
+    background-image: url("https://avatars.dzeninfra.ru/get-zen_doc/5295210/pub_62ddaff894e04162bcea08cf_62ddb0258c26487b59577521/scale_1200");
+    background-position: center;
+    background-size: cover;
+    font-size: 0;
+}
+.but1:active{
+    transition: all 0.2s ease 0s;
+    transform: rotate(360deg);
+}
+.but2{
+    width: 300px;
+    height: 100px;
+    background-color: #2ba2e2;
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 2s ease;
+    border-radius: 10px;
+    color: #c24d04;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 16pt;
+    font-family: 'Rubik', sans-serif;
+}
+.but2:hover{
+    transform: rotate(720deg);
+    transition: all 3s ease;
+    font-size: 0;
+}
+
+.but2:active{
+    transition: all 0.2s ease 0s;
+    width: 100px;
+    height: 30px;
+}
+.but3{
+    width: 300px;
+    height: 100px;
+    background-color: #2be243;
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    transition: all 1s ease;
+    color: #4b4949;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 16pt;
+    font-family: 'Rubik', sans-serif;
+}
+.but3:hover{
+    padding-right: 100px;
+    padding-bottom: 200px;
+    margin-top: 234px;
+    transition-property: padding-right, padding-bottom, margin-top;
+    transition-delay: 0s, 2s, 2s;
+    transition-duration: 2s;
+    background-image: url("https://cdn.fishki.net/upload/post/2018/11/06/2758011/gifs-19.gif");
+    background-position: center;
+    background-size: cover;
+    font-size: 0;
+}
